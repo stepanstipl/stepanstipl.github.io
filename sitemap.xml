@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://stepanstipl.github.io/blog/2014/03/15/rpm-repositories-on-mac-os-with-homebrew/
+        </loc>
+        <lastmod>2014-03-15T23:11:29+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stepanstipl.github.io/blog/archives/</loc>
+        <lastmod>2014-03-15T23:11:29+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stepanstipl.github.io/</loc>
+        <lastmod>2014-03-15T23:11:29+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stepanstipl.github.io/robots.txt</loc>
+        <lastmod>2014-03-15T23:03:43+00:00</lastmod>
+    </url>
+</urlset>

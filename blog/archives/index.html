@@ -9,7 +9,7 @@
 		<meta content="Stepan blog about surviving in the digital world, kingdom of Masters and Puppets..." name="description">
 		<meta content="Lost in digital world" name="author">
 		
-		<title>Lost in digital world</title>
+		<title>All posts &mdash; Lost in digital world</title>
 		
 		<!-- Styles -->
 		<link href="/stylesheets/main.css" rel="stylesheet">
@@ -44,70 +44,39 @@
 				</div> <!-- // .navi -->
 			</header>
 		
-				<!-- START OF index.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
+				<!-- START OF _layouts/page.html -->
 <article>
-	<header>
-		<h1><a href="/blog/2014/03/15/rpm-repositories-on-mac-os-with-homebrew/">RPM Repositories on Mac OS with Homebrew</a></h1>
-		<time>15 March 2014</time>
-	</header>
-		<div class="content">
-			<p>One of the things that I immediately missed, when I&#8217;ve moved from <a href="http://www.macports.org/">Macports</a> to <a href="(http://brew.sh/">Homebrew</a>, was createrepo utility that allows you to generate metadata for rpm repositories. So I&#8217;ve decided to create my own tap for homebrew and add this utility and it&#8217;s dependencies.</p>
-
-<p>Project is hosted on Github - <a href="https://github.com/stepanstipl/homebrew-noop.">https://github.com/stepanstipl/homebrew-noop.</a> Currently the repository contains <strong>createrepo</strong> itself, <strong>yum-metadata-parser</strong> as it&#8217;s deendency for createrepo and <strong>rpm4</strong> - classical rpm tool used by RedHat OS family (there&#8217;s already rpm5 in Homebrew, but that one is different fork than the one used by CentOS/RedHat and doesn&#8217;t contain Python bindings required by createrepo, btw. these two are in conflcit, so you can&#8217;t have both of them installed together).</p>
-
-<h2>Enough of chat, how the hell can I get this working?</h2>
-
-<ul>
-<li>I suppose you have Homebrew installed (if not follow instructions at <a href="http://brew.sh/">http://brew.sh/</a>)</li>
-<li>Add this tap: <code>brew tap stepanstipl/noop</code></li>
-<li>Install createrepo: <code>brew install createrepo</code></li>
-</ul>
+<header>
+	
+			<h1 class="center">All posts</h1>
+	
+</header>
+<!-- BEGIN blog/archives/index.html -->
 
 
-<p>And you can happily ever after use createrepo (basic usage <code>createrepo /path/to/my/rpms</code>). I just hope someone might find this useful.</p>
-
-<p>*[RPM]: Red Hat Package Manager</p>
-
-			
-			
-		</div>
-	<footer>
-		
-
-
-		
 
 
 
   
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/homebrew/'>Homebrew</a>, <a class='category' href='/blog/categories/linux/'>Linux</a>, <a class='category' href='/blog/categories/mac-os-x/'>Mac OS X</a>, <a class='category' href='/blog/categories/rpm/'>RPM</a>
-	
+	<div class="cat-year">2014</div>
 
 
-	
-	
-	</footer>
-	
+
+  
+	<div class="cat-month">March</div>
+
+
+<!-- BEGIN _includes/archive_post.html -->
+
+<a class="title-listing" href="/blog/2014/03/15/rpm-repositories-on-mac-os-with-homebrew/">RPM Repositories on Mac OS with Homebrew</a><br>
+<!-- END _includes/archive_post.html -->
+
+
+
+<!-- END blog/archives/index.html -->
+
 </article>
-<!-- END OF _includes/article.html -->
-
-	
-	
-<div class="pagination">
-	
-	
-	<span class="total">1 of 1</span>
-	
-	
-</div>
-<!-- END OF index.html -->
+<!-- END OF _layouts/page.html -->
 
 		
 			<footer>
